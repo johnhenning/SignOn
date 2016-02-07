@@ -114,6 +114,6 @@ print('Test accuracy:', score[1])
 from keras.utils.visualize_util import plot
 plot(model, to_file='model.png')
 
-model.save_weights('test.txt', overwrite=False)
+model.save_weights('test.h5', overwrite=True)
 
 
