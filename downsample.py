@@ -6,7 +6,6 @@ import glob
 
 count = 0
 for img in glob.glob("training/undownsampled/*.jpg"):
-    
     src = cv2.imread(img)
     for num in range(0,5):
     	out = cv2.pyrDown(src)
@@ -16,17 +15,6 @@ for img in glob.glob("training/undownsampled/*.jpg"):
     		cv2.imwrite("training/output" + str(count) + ".jpg",gray_image)
     count += 1
 
-
-for img in glob.glob("training/undownsampled/*.JPG"):
-    
-    src = cv2.imread(img)
-    for num in range(0,5):
-    	out = cv2.pyrDown(src)
-    	src = out
-    	if num == 4:
-    		gray_image = cv2.cvtColor(out, cv2.COLOR_BGR2GRAY)
-    		cv2.imwrite("training/output" + str(count) + ".jpg",gray_image)
-    count += 1
     	
 
 
