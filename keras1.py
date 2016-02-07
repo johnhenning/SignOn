@@ -50,7 +50,7 @@ for img in glob.glob("training/*.jpg"):
 	trainX[count] = data
 	count += 1
 
-random = np.random.randint(numTrain, size=150).tolist()
+random = np.random.randint(numTrain, size=300).tolist()
 
 testX = trainX[random]
 testY = trainY[random]
