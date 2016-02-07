@@ -34,10 +34,11 @@ nb_conv = 7
 img_rows, img_cols = 64, 64
 
 testX = np.ndarray((numTest,img_rows,img_cols))
-#embed()
+embed()
 
+count = 0
 for img in glob.glob("tests/*.jpg"):
-	data = np.asarray(Image.open(img))
+	data = np.array(Image.open(img))
 	testX[count] = data
 	count += 1
 
