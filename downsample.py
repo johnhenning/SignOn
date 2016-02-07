@@ -4,7 +4,7 @@ import numpy as np
 
 import glob
 
-count = 0
+count = 1317
 for img in glob.glob("training/undownsampled/*.jpg"):
     src = cv2.imread(img)
     for num in range(0,5):
