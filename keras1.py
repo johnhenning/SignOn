@@ -26,7 +26,7 @@ from keras.utils import np_utils
 
 batch_size = 15
 nb_classes = 3
-nb_epoch = 100
+nb_epoch = 20
 
 # input image dimensions
 img_rows, img_cols = 64, 64
