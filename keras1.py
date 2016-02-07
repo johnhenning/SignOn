@@ -37,7 +37,7 @@ nb_pool = 2
 # convolution kernel size
 nb_conv = 7
 
-numTrain = 1317
+numTrain = 3118
 
 trainX = np.ndarray((numTrain,img_rows,img_cols))
 
