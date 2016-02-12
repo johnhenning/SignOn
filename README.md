@@ -1,2 +1,2 @@
 # iSignNeuralNet
-Keras Conv Neural Network
+Keras Convolutional Neural Network
