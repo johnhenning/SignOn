@@ -5,3 +5,7 @@ American Sign Language Interpreter using a Convolutional Neural Network
 - Trained on 3118 downsampled images. Will make bigger dataset
 - Currently only can recognize 'A', 'P', and 'I' sign gestures.
 - Plans to make full alphabet recognizable
+
+
+### Convolutional Model 
+![Model](model.png)
